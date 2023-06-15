@@ -1,0 +1,5 @@
+A:
+std::cout << "/*"; pass
+std::cout << "*/"; pass
+std::cout /* "*/"  */; fail
+std::cout /* "*/" /* "/*" */ pass
